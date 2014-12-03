@@ -285,6 +285,8 @@ public class Configuration {
 			return "https://s3-eu-west-1.amazonaws.com/storm-releases/storm-0.9.0.1.tar.gz";
 		} else if (version.equals("0.9.2")) {
 			return "http://mirror.symnds.com/software/Apache/storm/apache-storm-0.9.2-incubating/apache-storm-0.9.2-incubating.tar.gz";
+		} else if (version.equals("0.9.3")) {
+			return "http://apache.mirrors.tds.net/storm/apache-storm-0.9.3/apache-storm-0.9.3.tar.gz";
 		} else {
 			log.info("Storm version " + version + " not currently supported!");
 		}
